@@ -1,0 +1,16 @@
+@media (max-width : 440px) {
+    .container{
+        width: auto;
+        height: auto;
+        margin: 0 10px;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    h1{
+        text-align: center;
+    }
+    .resultado > p {
+        max-width: 175px;
+        text-align: center;
+    }
+    
+}
