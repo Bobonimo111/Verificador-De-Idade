@@ -17,8 +17,8 @@ function verificar(){
     // let imagem = document.createElement('img');
     // let paragrafo = document.createElement('p');
 
-    if(nascimento_user.value == 0 || nascimento_user.value < 0){
-        window.alert("Coloque um ano valido")
+    if(nascimento_user.value == 0 || nascimento_user.value < 0 || nascimento_user.value > ano){
+        window.alert("Ano de nascimento invalido")
     }else{
         let caminho = "./src/images/"
         //masculino
@@ -73,4 +73,3 @@ function verificar(){
 
 
 }
-
